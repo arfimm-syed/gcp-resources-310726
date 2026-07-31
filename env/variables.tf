@@ -1,4 +1,10 @@
-variable "storage_bucket" {}
+variable "storage_bucket" {
+  type = map(object({
+    name     = string
+    location = string
+    uniform_bucket_level_access = bool
+  }))
+}
 
 variable "project_id" {
   type = string
