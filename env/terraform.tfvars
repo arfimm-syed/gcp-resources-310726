@@ -16,4 +16,9 @@ storage_bucket = {
     location = "EU"
     uniform_bucket_level_access = true
   }
+  "bucket4" = {
+    name     = "my-bucket-arfimm-4"
+    location = "EU"
+    uniform_bucket_level_access = true
+  }
 }
