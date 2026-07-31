@@ -4,3 +4,7 @@ variable "storage_bucket"{
         location = string
     }))
 }
+
+variable "project_id" {
+    type = string
+}
