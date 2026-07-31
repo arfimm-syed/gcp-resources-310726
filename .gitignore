@@ -14,7 +14,7 @@ terraform-provider-*
 *.plan
 
 # Sensitive files
-*.tfvars
+# *.tfvars
 *.tfvars.json
 
 # Secrets
