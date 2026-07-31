@@ -5,3 +5,7 @@ variable "storage_bucket"{
         uniform_bucket_level_access = bool
     }))
 }
+
+variable "project_id" {
+    type = string
+}
