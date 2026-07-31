@@ -6,12 +6,12 @@ storage_bucket = {
     location = "EU"
     uniform_bucket_level_access = true
   }
-  bucket2 = {
+  "bucket2" = {
     name     = "my-bucket-arfimm-2"
     location = "EU"
     uniform_bucket_level_access = true
   }
-  bucket3 = {
+  "bucket3" = {
     name     = "my-bucket-arfimm-3"
     location = "EU"
     uniform_bucket_level_access = true

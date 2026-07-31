@@ -3,4 +3,5 @@ resource "google_storage_bucket" "my-bucket-arfimm" {
     name = each.value.name
     location = each.value.location
     uniform_bucket_level_access = each.value.uniform_bucket_level_access
+    project = var.project_id
 }
