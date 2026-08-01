@@ -43,3 +43,13 @@ jobs:
     run: |
       gcloud auth list
       gcloud config list
+  - name: Setup Terraform
+    uses: hashicorp/setup-terraform@v3
+
+  - name: Terraform Init
+    working-directory: ./env
+    run: terraform init
+
+  - name: Terraform Apply
+    working-directory: ./env
+    run: terraform apply -auto-approve
