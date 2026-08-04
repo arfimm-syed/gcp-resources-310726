@@ -7,4 +7,5 @@ module "storage_bucket" {
 module "vm_instance" {
   source         = "../modules/vm_instance"
   my_vm_instance = var.my_vm_instance
+  project_id     = var.project_id
 }
