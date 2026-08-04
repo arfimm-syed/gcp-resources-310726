@@ -7,3 +7,7 @@ variable "my_vm_instance" {
     network         = string
   }))
 }
+
+variable "project_id" {
+  type = string
+}
