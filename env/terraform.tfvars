@@ -33,3 +33,27 @@ storage_bucket = {
   # }
 
 }
+
+my_vm_instance = {
+  "vm1" = {
+    name            = "my-vm-arfimm"
+    machine_type    = "e2-standard-2"
+    zone            = "europe-west1-b"
+    boot_disk_image = "ubuntu-os-cloud/ubuntu-2204-lts"
+    network         = "default"
+  }
+  # "vm2" = {
+  #   name            = "my-vm-arfimm-2"
+  #   machine_type    = "e2-medium"
+  #   zone            = "europe-west1-b"
+  #   boot_disk_image = "debian-cloud/debian-11"
+  #   network         = "default"
+  # }
+  # "vm3" = {
+  #   name            = "my-vm-arfimm-3"
+  #   machine_type    = "e2-medium"
+  #   zone            = "europe-west1-b"
+  #   boot_disk_image = "debian-cloud/debian-11"
+  #   network         = "default"
+  # }
+}
