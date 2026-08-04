@@ -7,3 +7,4 @@ variable "my_vm_instance" {
     network         = string
   }))
 }
+
