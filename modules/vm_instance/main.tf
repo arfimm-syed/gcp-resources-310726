@@ -1,5 +1,5 @@
 resource "google_vm_instance" "my-vm-arfimm" {
-  for_each = var.vm_instance
+  for_each = var.my_vm_instance
   name         = each.value.name
   machine_type = each.value.machine_type
   zone         = each.value.zone
