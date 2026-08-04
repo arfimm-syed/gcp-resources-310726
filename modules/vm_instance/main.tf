@@ -1,3 +1,9 @@
+resource "google_project_service" "compute-api" {
+  project = var.project_id
+  service = "compute.googleapis.com"
+}
+
+
 resource "google_compute_instance" "my-vm-arfimm" {
   for_each = var.my_vm_instance
   name         = each.value.name
