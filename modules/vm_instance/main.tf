@@ -3,8 +3,7 @@ resource "google_vm_instance" "my-vm-arfimm" {
   name         = each.value.name
   machine_type = each.value.machine_type
   zone         = each.value.zone
-  project      = var.project_id
-
+ 
   boot_disk {
     initialize_params {
       image = each.value.boot_disk_image

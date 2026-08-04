@@ -8,6 +8,3 @@ variable "my_vm_instance" {
   }))
 }
 
-variable "project_id" {
-  type = string
-}
